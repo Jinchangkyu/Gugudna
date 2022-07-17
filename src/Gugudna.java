@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
-    public class Gugudna {
-        public static void main(String[] args) {
+public class Gugudna {
+    public static void main(String[] args) {
         // 2단
 //        System.out.println("2단");
 //        System.out.println(2 * 1);
@@ -49,8 +49,8 @@ import java.util.Scanner;
         System.out.println(reuslt);
         reuslt = 4 * 9;
         System.out.println(reuslt);
-        */
 
+        // 구구단 만들기
         System.out.println("구구단 중 출력할 단은? : ");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
@@ -63,5 +63,21 @@ import java.util.Scanner;
         System.out.println(number * 7);
         System.out.println(number * 8);
         System.out.println(number * 9);
+         */
+
+        /*
+        // 6단 while문
+        int i = 1;
+        while(i < 10) {
+            System.out.println(6 * i);
+            i = i + 1;
+        }
+        */
+
+        // 7단
+        for (int j = 1; j < 10; j++) {
+            System.out.println(7 * j);
+        }
+
     }
 }
